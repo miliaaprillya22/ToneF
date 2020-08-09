@@ -1,0 +1,174 @@
+.container-fluid {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Grid Cart --- */
+
+.card-text {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+}
+
+.cart-pic {
+  font-family: Airbnb Cereal App;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.cart-tax {
+  text-align: left;
+}
+/* button-cart */
+.button-cart {
+  background-color: seagreen;
+}
+
+/* checkout-popup */
+.checkout-popup {
+  font-align: center;
+}
+.modal-footer {
+  display: flex;
+}
+.sidebar-one {
+  text-align: left;
+  flex: 1;
+}
+.sidebar-dua {
+  text-align: left;
+  flex: 1;
+}
+.h5 {
+  text-align: left;
+}
+/* ------------------- */
+
+/* Navbar */
+.head-navbar {
+  background-color: white;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.title-head {
+  font-size: x-large;
+  font-family: "Playfair Display", serif;
+  flex: 8;
+}
+.icon-head {
+  flex: 1;
+}
+
+/* home select */
+.select-1 {
+  position: relative;
+}
+.selected {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 10px 10px 0 0;
+}
+.selected-img {
+  position: relative;
+  top: 35%;
+}
+
+/* ------------------- */
+
+.head-cart {
+  background-color: white;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img-order {
+  width: 100px;
+  height: 100px;
+  left: 1000px;
+  top: 200px;
+  flex: 1;
+  border-radius: 10px;
+}
+.price-middle {
+  width: 100px;
+  height: 100px;
+  font-family: "Roboto", sans-serif;
+  flex: 9;
+}
+.icon-tax {
+  font-family: "Roboto", sans-serif;
+}
+.price-min {
+  font-display: bottom;
+}
+.align-middle1 {
+  text-align: end;
+}
+.btn-checkout {
+  background-color: #57cad5;
+}
+.btn-cancel {
+  background-color: #f24f8a;
+}
+.btn-add {
+  background-color: white;
+}
+.select-image {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* .bottom-checkout {
+  display: end;
+} */
+
+/* .btn-group {
+  border-right: none;
+  background-color: #3e8e41;
+} */
+/* -----------------------------(add+)buttom(-)------------------------------------- */
+/* order */
+div {
+  text-align: center;
+}
+/*Prevent text selection*/
+span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+input {
+  border: 0;
+  width: 2%;
+}
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:disabled {
+  background-color: white;
+}
+/* .........Responsive Web......... */
+@media (max-width: 990px) {
+  .shadow {
+    display: flex;
+  }
+  .hide-cart {
+    display: none;
+  }
+}
+
+/* .......Responsive web....... */
+@media (max-width: 750px) {
+  .selected-img {
+    top: 40%;
+  }
+}

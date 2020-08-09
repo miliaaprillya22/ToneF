@@ -1,0 +1,172 @@
+/* container-fluid */
+.container-fluid {
+  weight: 1000px;
+  height: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.head-navbar1 {
+  justify-content: center;
+}
+
+/* Bagian bawah header */
+.boox-1 {
+  background-color: #ffb6c1;
+  filter: drop-shadow(10px 15px 10px rgba(255, 143, 178, 0, 25));
+  border-radius: 10px;
+}
+.boox-2 {
+  background-color: #87cefa;
+  filter: drop-shadow(10px 15px 10px rgba(255, 143, 178, 0, 25));
+  border-radius: 10px;
+}
+.boox-3 {
+  background-color: #ba55d3;
+  filter: drop-shadow(10px 15px 10px rgba(255, 143, 178, 0, 25));
+  border-radius: 10px;
+}
+
+/* ----------- */
+
+/* cart-Order */
+.selected-card {
+  justify-content: center;
+}
+/* ---------------- */
+.icon-h {
+  height: 700px;
+}
+/* .col-9,
+.col-3 {
+  height: 10px;
+} */
+.mr-3 {
+  width: 70px;
+  height: 70px;
+}
+.kotak {
+  background: rgba(190, 195, 202, 0, 3);
+}
+.tx,
+.card-text {
+  font-family: "Roboto", sans-serif;
+}
+.icon-head {
+  flex: 1;
+}
+.c2,
+.c1 {
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav1 {
+  text-align: center;
+}
+
+.head-navbar {
+  background-color: white;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.title-head {
+  font-size: x-large;
+  font-family: "Playfair Display", serif;
+  flex: 9;
+}
+
+.head-cart {
+  background-color: white;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img-order {
+  width: 100px;
+  height: 100px;
+  left: 1000px;
+  top: 200px;
+  flex: 1;
+  border-radius: 10px;
+}
+.price-middle {
+  width: 100px;
+  height: 100px;
+  font-family: "Roboto", sans-serif;
+  flex: 9;
+}
+.icon-tax {
+  font-family: "Roboto", sans-serif;
+}
+.price-min {
+  font-display: bottom;
+}
+.align-middle1 {
+  text-align: end;
+}
+.btn-checkout {
+  background-color: #57cad5;
+}
+.btn-cancel {
+  background-color: #f24f8a;
+}
+.select-image {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* .bottom-checkout {
+  display: end;
+} */
+.select-1 {
+  /* z-index: -3; */
+  background-color: rgba(7, 4, 4, 0.5);
+}
+/* .btn-group {
+  border-right: none;
+  background-color: #3e8e41;
+} */
+/* 
+modal */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
